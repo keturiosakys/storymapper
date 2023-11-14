@@ -26,13 +26,6 @@ type ReturnDate = {
   source: string;
 };
 
-//const googleMapsClient = new Client();
-const openAiToken = Deno.env.get("OPENAI_KEY");
-
-if (!openAiToken) {
-  throw new Error("Missing OpenAI API key");
-}
-
 const PARSE_ROUTE = new URLPattern({ pathname: "/parse_source" });
 
 async function main(req: Request) {
