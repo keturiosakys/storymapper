@@ -9,7 +9,6 @@
 	standardControls
 	style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
 >
-<Marker lngLat={}/>
 </MapLibre>
 
 <style>
