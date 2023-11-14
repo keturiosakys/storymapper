@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "structured-dtl"
+version = "0.1.0"
+description = ""
+authors = ["Laurynas Keturakis <laurynas.keturakis@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+spacy = "^3.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
